@@ -43,7 +43,7 @@ const App = () => {
   return (
     <div className="App">
       <h1>Kickstarter Projects</h1>
-      <table aria-label="Kickstarter projects table">
+      <table aria-label="Kickstarter projects table" className="table-main">
         <thead>
           <tr>
             <th>S.No.</th>
